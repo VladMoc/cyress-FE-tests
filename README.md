@@ -1,8 +1,23 @@
 # cyress-FE-tests
-FE test using cypress
+FE testing framework using Cypress
 
-To run you need to do the following things:
-1.Git clone the repo.
-2.Go the cloned folder.
-3.Run npm install.
-4.Run npx cypress open.
+## Installation
+
+Git clone the repo.
+Navigate to the cloned folder.
+
+```bash
+Run npm install
+```
+
+## Running the tests 
+Run npx cypress open
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
