@@ -1,0 +1,9 @@
+
+{ 
+ "integrationFolder":"cypress/tests",
+ "baseUrl":"https://be-the-qa-fe.herokuapp.com/",
+ "env": {
+    "BASE_API_URL": "https://be-the-qa-api.herokuapp.com/",
+    "BASE_URL":"https://be-the-qa-fe.herokuapp.com/"
+ }
+}
