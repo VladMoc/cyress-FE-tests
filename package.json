@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "A cypress framework for automation testing",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladMoc/cyress-FE-tests.git"
+  },
+  "author": "Vlad Mocan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VladMoc/cyress-FE-tests/issues"
+  },
+  "homepage": "https://github.com/VladMoc/cyress-FE-tests#readme"
+}
