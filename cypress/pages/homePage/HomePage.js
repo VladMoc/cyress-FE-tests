@@ -3,7 +3,7 @@ export class HomePage {
 
     static createUserButton = () => cy.get('[data-testid=create-user-button]');
     static userListHedear = () => cy.get('.card-header');
-    static searchByInput = () => cy.get('data-testid="search-input"');
+    static searchByInput = () => cy.get('[data-testid="search-input"]');
     static noUserText = () => cy.get('[data-testid="no users text"]');
     static firstRow = () => cy.get('#row1');
     static nameColumn = () => cy.get('[data-testid=column-name]');
@@ -16,6 +16,7 @@ export class HomePage {
     static userEmail = () => cy.get('[data-testid="row-email"]');
     static userAddress = () => cy.get('[data-testid="row-adress"]');
     static userStatus = () => cy.get('[data-testid="row-checkbox"]');
+
 
 
     //web link 
