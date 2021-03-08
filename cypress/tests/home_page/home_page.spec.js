@@ -28,6 +28,10 @@ describe("Should check the home page elements without users", () => {
   it('Verify that the text that is displayed if no users are present is correct ', () => {
     HomePage.noUserText().contains(HomePageStrings.NO_USERS_WERE_FOUND_TEXT)
   })
+
+  it ('Verify that the Search By textbox is displayed', () => {
+    HomePage.searchByInput().should('be.visible')
+  })
 });
 
 
